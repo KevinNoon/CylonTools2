@@ -79,7 +79,7 @@ public class MergeGlobals {
         subGlobal = GlobalsFunctions.getUsedGlobal( GlocalListSub );
         Map<Integer,Integer> globalChangeList;
         globalChangeList = GlobalsFunctions.getWideGlobalChange( rootGlobal,subGlobal);
-//        GlobalsFunctions.setNewGlobalNo( GlocalListSub,globalChangeList );
+        GlobalsFunctions.setNewGlobalNo( GlocalListSub,globalChangeList );
 
 
 //Copy the Sub Globals to the new file
