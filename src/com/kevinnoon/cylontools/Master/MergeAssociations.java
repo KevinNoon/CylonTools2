@@ -19,8 +19,6 @@ public class MergeAssociations {
         //Copy Master Site
         LinkedHashMap<Integer, LinkedHashMap<Integer, String>> assListMaster;
         assListMaster = GetAssociations(Paths.get(SiteRootMaster + AssociationsXML));
-        System.out.println(SiteRootMaster);
-        System.out.println(assListMaster);
 
         CreateNewXML(Paths.get(SiteRootMerge + AssociationsXML));
         Set setMaster = assListMaster.entrySet();

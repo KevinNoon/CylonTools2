@@ -79,6 +79,7 @@ public class MergeGlobals {
         subGlobal = GlobalsFunctions.getUsedGlobal( GlocalListSub );
         Map<Integer,Integer> globalChangeList;
         globalChangeList = GlobalsFunctions.getWideGlobalChange( rootGlobal,subGlobal);
+        System.out.println(globalChangeList);
         GlobalsFunctions.setNewGlobalNo( GlocalListSub,globalChangeList );
 
 
